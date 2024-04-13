@@ -1,0 +1,21 @@
+body{
+   text-align: center;
+   background-color: pink;
+}
+h1{
+   text-align: center;
+}
+body{
+   background-image: linear-gradient(pink,yellow);
+}
+.card-body {
+   padding: 200px; 
+}
+/* Add this CSS to your stylesheet */
+.hoverable {
+   transition: transform 0.3s ease;
+}
+
+.hoverable:hover {
+   transform: scale(1.05);
+}
